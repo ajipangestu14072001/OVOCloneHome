@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/baseline_blur_circular_24"
+        app:actionLayout="@layout/menu_item"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/Search"
+        android:icon="@drawable/baseline_blur_circular_24"
+        app:actionLayout="@layout/menu_item"
+        android:title="Finance" />
+
+    <item
+        android:id="@+id/placeholder"
+        app:actionLayout="@layout/menu_item"
+        android:title="Pay" />
+
+    <item
+        android:id="@+id/Profile"
+        android:icon="@drawable/baseline_blur_circular_24"
+        app:actionLayout="@layout/menu_item"
+        android:title="Inbox" />
+
+    <item
+        android:id="@+id/Settings"
+        android:icon="@drawable/baseline_blur_circular_24"
+        app:actionLayout="@layout/menu_item"
+        android:title="Profile" />
+
+</menu>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/colorSecond"
+    android:layout_height="match_parent"
+    tools:context=".view.LottieActivity">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="OVO"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:layout_marginTop="50dp"
+            android:textSize="70sp"/>
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lav_actionBar"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:scaleType="centerCrop"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="180dp"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/kwovo"
+        app:lottie_loop="true" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Solusi Cerdas Finansial"
+        android:textColor="@color/white"
+        android:layout_above="@id/desc"
+        android:textSize="30sp"
+        android:gravity="center"
+        />
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nikmati berbagai layanan finansial dan kemudahan\pembayaran dalam genggaman."
+        android:textSize="14sp"
+        android:layout_above="@id/btnloti"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lanjutkan"
+        android:id="@+id/btnloti"
+        android:padding="10dp"
+        android:layout_margin="16dp"
+        android:layout_alignParentBottom="true"
+        android:textColor="@color/white"/>
+
+</RelativeLayout>
